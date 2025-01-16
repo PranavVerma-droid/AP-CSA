@@ -1,8 +1,14 @@
 public class Variables {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
-        int DaysOfWeek;
-        final bool isRainy; // 'final' Keywords are Constant - Can't Be Changed After Dec.
+        final int noOfDaysInWeek = 7;
+        final boolean isRainy = true;
+        final double valueOfPi = 3.14;
 
+        /*
+         * The Keyword - 'final' means that the variable is constant
+         * and cannot be changed after initialization.
+         */
     }
     
 }
