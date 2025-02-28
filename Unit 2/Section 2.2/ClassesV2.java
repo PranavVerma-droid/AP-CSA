@@ -1,7 +1,7 @@
 public class ClassesV2 {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
-        Employee BadBoyRajat = new Employee("Rajat", "1298hasd", 1.0);
+        Employee BadBoyRajat = new Employee("Rajat", "1298hasd", (double) 1);
 
     }
 }
