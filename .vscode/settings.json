@@ -1,12 +1,13 @@
 {
     "java.project.sourcePaths": [
+        "Unit 2/Section 2.4",
+        "Unit 2/Section 2.3",
+        "Unit 2/Section 2.2",
+        "Unit 1/Section 1.5",
         "Unit 1/Section 1.4",
         "Unit 1/Section 1.3",
         "Unit 1/Section 1.2",
         "Unit 1/Section 1.1",
-        "Unit 1/Section 1.5",
-        "Unit 2/Section 2.2",
-        "Unit 2/Section 2.3",
-        "Unit 2/Section 2.4",
+        "Unit 2/Section 2.5"
     ]
 }
