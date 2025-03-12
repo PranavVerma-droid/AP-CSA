@@ -1,4 +1,4 @@
-class Calculator {
+public class Calculator {
 
     public void calcAverage(double num1, double num2) {
         double average = (num1 + num2) / (double) 2;
