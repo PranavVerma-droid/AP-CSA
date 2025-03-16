@@ -1,4 +1,5 @@
 public class Wrapper {
+    @SuppressWarnings("removal")
     public static void main(String[] args) {
         /*
          * Autoboxing is the automatic conversion that the Java compiler makes between primitive types and their corresponding object wrapper classes. This includes converting an int to an Integer and a double to a Double. 

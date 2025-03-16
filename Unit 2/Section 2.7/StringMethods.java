@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class StringMethods {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         String first = "apple";
         String last = "zebra";

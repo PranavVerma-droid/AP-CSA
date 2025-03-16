@@ -1,4 +1,4 @@
-class Calculator {
+public class Calculator2 {
 
     public double calcAverage(double num1, double num2) {
         double average = (num1 + num2) / (double) 2;
@@ -10,7 +10,7 @@ class Calculator {
         return average;
     }
     public static void main(String[] args) {
-        Calculator myAwesomeAndFamousCalculator = new Calculator();
+        Calculator2 myAwesomeAndFamousCalculator = new Calculator2();
 
         System.out.println(myAwesomeAndFamousCalculator.calcAverage((double) 24, 23.4, 23));
     }   
