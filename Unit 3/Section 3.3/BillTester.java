@@ -1,4 +1,4 @@
-public class if_else {
+public class BillTester {
     public static void main(String[] args) {
         /* if (boolean expression) {
             Segment of code that will run if the boolean expression is true
