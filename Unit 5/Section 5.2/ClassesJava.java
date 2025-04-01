@@ -1,5 +1,6 @@
 public class ClassesJava {
     public static void main(String[] args) {
+        // Sport Class Testing
         // Basketball Sport.
         Sport bb = new Sport("Basketball", 10);;
 
@@ -13,6 +14,22 @@ public class ClassesJava {
 
         System.out.println(TBD.getName());
         System.out.println(TBD.getNumAtheletes());
+
+        // Cow Class Testing
+        Cow bessie = new Cow("holstein", "moo");
+
+        System.out.println(bessie.getSound());
+        System.out.println(bessie.getType());
+        System.out.println(bessie.getNumMilkings());
+
+        bessie.milkCow();
+        System.out.println(bessie.getNumMilkings());
+
+        bessie.milkCow(); bessie.milkCow();
+        System.out.println(bessie.getNumMilkings());
+
+        bessie.milkCow(10);
+        System.out.println(bessie.getNumMilkings());
     }
 }
 
