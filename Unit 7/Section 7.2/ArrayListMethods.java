@@ -15,5 +15,7 @@ public class ArrayListMethods {
         System.out.println(a1.get(1) + a1.get(0)); // Will Output 11.
 
         a1.remove(a1.size() - 1); // Will Remove the Last Index.
+        
+        a1.set(0, 1);
     } 
 }
