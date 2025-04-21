@@ -2,10 +2,6 @@ import java.util.ArrayList;
 
 @SuppressWarnings("unused")
 public class AlgorithmsUsingArrayLists {
-    public static void main(String[] args) {
-
-    }
-
     
     private double findMax(ArrayList<Double> values) {
         double max = values.get(0);
