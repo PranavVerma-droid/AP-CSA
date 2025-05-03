@@ -2,7 +2,12 @@ public class Musician extends Performer {
     private String instrument;
 
     public Musician() {
-        super(); // super() will call the default constructores of the super class.
+        /*
+         * A Java keyword used to refer to the superclass object. In this lesson we saw
+         * it used to call the superclass constructor and other methods from the
+         * superclass.
+         */
+        super();
         instrument = "Piano";
     }
 

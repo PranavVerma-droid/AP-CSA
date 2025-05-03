@@ -1,4 +1,8 @@
 public class TwoDArrayIntro {
+    /*
+     * Arrays that store arrays. The methods associated with these are the same as
+     * regular arrays.
+     */
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         // Regular Arrays use ONE set of brackets.
@@ -8,12 +12,12 @@ public class TwoDArrayIntro {
         // First Bracket: Rows
         // Second Bracket: Columns
 
-        int [][] grades = {
-            {10, 20, 30, 40, 50},
-            {10, 20, 30, 40, 50},
-            {10, 20, 30, 40, 50},
-            {10, 20, 30, 40, 50},
-            {10, 20, 30, 40, 50} };
+        int[][] grades = {
+                { 10, 20, 30, 40, 50 },
+                { 10, 20, 30, 40, 50 },
+                { 10, 20, 30, 40, 50 },
+                { 10, 20, 30, 40, 50 },
+                { 10, 20, 30, 40, 50 } };
 
         // Number of Rows:
         int noOfRowsInGrades = grades.length;
@@ -24,12 +28,10 @@ public class TwoDArrayIntro {
         // Number of Columns in ROW 2:
         int noOfColumnsInRow2InGrades = grades[1].length;
 
-
         // Get Items from 2D Arrays
 
         int row1column1 = grades[0][0];
         System.out.println(row1column1);
-
 
         // Update Items in 2D Arrays
 
