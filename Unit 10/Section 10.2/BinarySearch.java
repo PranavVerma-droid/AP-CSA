@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BinarySearching {
+public class BinarySearch {
     public static void main(String[] args) {
         int [] myArr = {1, 2, 3, 4, 5, 5, 5, 6, 7, 8};
         ArrayList<Integer> myArrList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 5, 5, 6, 7, 8));
