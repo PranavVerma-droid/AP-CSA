@@ -10,6 +10,17 @@ public class MaxMinDouble {
         return max;
     }
 
+    private static int findMax(int [] values) {
+        int max = values[0];
+
+        for (int index = 1; index < values.length; index++) {
+            if(values[index] > max) {
+                max = values[index];
+            }
+        }
+        return max;
+    }
+
     private static int findMin(int [] values) {
         int min = Integer.MAX_VALUE;
 
@@ -28,8 +39,10 @@ public class MaxMinDouble {
 
         int [] array2 = {10, 20, 30};
         int minValue = findMin(array2);
+        int maxValue2 = findMax(array2);
 
         System.out.println(maxValue);
+        System.out.println(maxValue2);
         System.out.println(minValue);
     }
 }
